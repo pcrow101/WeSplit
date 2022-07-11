@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D664DB2D2558789400038075 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D664DB2C2558789400038075 /* AppDelegate.swift */; };
-		D664DB2F2558789400038075 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D664DB2E2558789400038075 /* SceneDelegate.swift */; };
+		D664DB2D2558789400038075 /* WeSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D664DB2C2558789400038075 /* WeSplit.swift */; };
 		D664DB312558789400038075 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D664DB302558789400038075 /* ContentView.swift */; };
 		D664DB332558789600038075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D664DB322558789600038075 /* Assets.xcassets */; };
 		D664DB362558789600038075 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D664DB352558789600038075 /* Preview Assets.xcassets */; };
@@ -17,8 +16,7 @@
 
 /* Begin PBXFileReference section */
 		D664DB292558789400038075 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D664DB2C2558789400038075 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D664DB2E2558789400038075 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D664DB2C2558789400038075 /* WeSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplit.swift; sourceTree = "<group>"; };
 		D664DB302558789400038075 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D664DB322558789600038075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D664DB352558789600038075 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -56,8 +54,7 @@
 		D664DB2B2558789400038075 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
-				D664DB2C2558789400038075 /* AppDelegate.swift */,
-				D664DB2E2558789400038075 /* SceneDelegate.swift */,
+				D664DB2C2558789400038075 /* WeSplit.swift */,
 				D664DB302558789400038075 /* ContentView.swift */,
 				D664DB322558789600038075 /* Assets.xcassets */,
 				D664DB372558789600038075 /* LaunchScreen.storyboard */,
@@ -145,8 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D664DB2D2558789400038075 /* AppDelegate.swift in Sources */,
-				D664DB2F2558789400038075 /* SceneDelegate.swift in Sources */,
+				D664DB2D2558789400038075 /* WeSplit.swift in Sources */,
 				D664DB312558789400038075 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +212,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
